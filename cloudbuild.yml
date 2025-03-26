@@ -5,7 +5,7 @@ steps:
       [
         "build",
         "-t",
-        "southamerica-east1-docker.pkg.dev/microservices-test-454912/test/auth-ms-prod ",
+        "southamerica-east1-docker.pkg.dev/microservices-test-454912/test/auth-ms-prod",
         "-f",
         "dockerfile.prod",
         "--platform=linux/amd64",
@@ -17,7 +17,7 @@ steps:
     args:
       [
         "push",
-        "southamerica-east1-docker.pkg.dev/microservices-test-454912/test/auth-ms-prod ",
+        "southamerica-east1-docker.pkg.dev/microservices-test-454912/test/auth-ms-prod",
       ]
 
 options:
